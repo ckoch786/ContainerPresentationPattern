@@ -24,13 +24,4 @@ export class ContainerABCComponent implements OnInit {
   ngOnDestroy() {
         this.publishingSubscription.unsubscribe();
   }
-
-  addStepC(){
-    this.publishingService.addStepC();
-  }
-
-  addStepD(){
-    this.publishingService.addStepD();
-  }
-
 }

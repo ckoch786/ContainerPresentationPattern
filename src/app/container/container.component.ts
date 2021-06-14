@@ -24,14 +24,6 @@ export class ContainerComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
         this.publishingSubscription.unsubscribe();
   }
-
-  addStepThree(){
-    this.publishingService.addStepThree();
-  }
-
-  addStepFour(){
-    this.publishingService.addStepFour();
-  }
 }    
 
 
