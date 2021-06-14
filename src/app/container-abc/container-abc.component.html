@@ -1,0 +1,13 @@
+<h1>From presentation component</h1>
+<app-presentation [steps]="steps"></app-presentation>
+
+<button (click)="addStepC()">Add step C</button>
+<button (click)="addStepD()">Add step D</button>
+
+<h1>From ABC container component</h1>
+
+<ul *ngFor="let step of steps">
+    <li>{{ step }}</li>
+</ul>
+
+
